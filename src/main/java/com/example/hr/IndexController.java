@@ -9,4 +9,8 @@ public class IndexController {
     public String index() {
         return "Hello welcome to TechSavanna Java Class.";
     }
+    @GetMapping("/jobs")
+    public String jobs() {
+        return "Hello welcome to TechSavanna list of jobs.";
+    }
 }
